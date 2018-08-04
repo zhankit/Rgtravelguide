@@ -28,13 +28,14 @@
     </div>
 
 	<p class="navbar-text navbar-right">
-	  <%= link_to 'About', pages_about_path, class:'navbar-link' %>
+    <%= link_to 'About', pages_about_path, class:'navbar-link' %>
 	</p>
     
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><%= link_to "Destinations", destinations_path %></li>
 		<li><%= link_to 'Add New Destination', new_destination_path %></li>
+    <li><%= link_to 'Maps', pages_maps_path %></li>
       </ul>
     </div>
   </div>
